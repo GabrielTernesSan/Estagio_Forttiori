@@ -41,7 +41,7 @@ O DDD é um conjunto de princípios com foco em **domínio**, **exploração de 
 
 #### Context Maps (Mapas de contexto)
 
-	Depois de ter todos os contextos definidos nós partimos para a criação de uma mapa destes contextos. Esse mapa serve para entendermos, definitivamente, a relação entre estes contextos.
+Depois de ter todos os contextos definidos nós partimos para a criação de uma mapa destes contextos. Esse mapa serve para entendermos, definitivamente, a relação entre estes contextos.
 
 ![Mapa de contextos](http://fullcycle.com.br/wp-content/uploads/2019/07/image-55-1024x462.png)
 
@@ -49,7 +49,7 @@ D → Downstream
 
 U → Upstream
 
-	Quando existe um relacionamento upstream (Supplier) e downstream (Customer), significa que a equipe upstream pode ter êxito interdependente da equipe downstream. Modificações no contexto upstream impactam a downstream.
+Quando existe um relacionamento upstream (Supplier) e downstream (Customer), significa que a equipe upstream pode ter êxito interdependente da equipe downstream. Modificações no contexto upstream impactam a downstream.
 
 ### Domain Model Patterns
 
@@ -139,5 +139,24 @@ Escrito em YAML ou JSON.
 ## ElasticSearch
 
 ​	O Elasticsearch é um mecanismo de busca e análise de dados distribuído, gratuito e aberto para todos os tipos de dados, incluindo textuais, numéricos, geoespaciais, estruturados e não estruturados. Conhecido por suas REST APIs simples, natureza distribuída, velocidade e escalabilidade, o Elasticsearch é o componente central do Elastic Stack, um conjunto de ferramentas gratuitas e abertas para ingestão, enriquecimento, armazenamento, análise e visualização de dados. Comumente chamado de ELK Stack (pelas iniciais de Elasticsearch, Logstash e Kibana), o Elastic Stack agora inclui uma rica coleção de agentes lightweight conhecidos como Beats para enviar dados ao Elasticsearch.
+
+## Active directory
+
+O AD é implementado em protocolo LDAP (Lightweight Directory Access Protocol), que, traduzido ao pé da letra, significa: Protocolo Leve de Acesso a Diretório. Trata-se de um protocolo livre que é conhecido como o padrão do mercado para gerenciamento de informações de diretório distribuído sobre uma rede de Protocolo da Internet (IP).
+
+Através da implementação de serviço LDAP, o Active Directory  permite o uso de um único diretório para controle de acesso a todos sistemas e serviços dentro de uma rede corporativa. Isso significa que o colaborador de uma empresa não precisa criar um usuário e senha para cada sistema que tiver acesso, e sim utilizar seu usuário e senhas únicos(as).
+
+São alguns dos principais recursos do AD:
+
+- Autenticação centralizada
+- Nível de segurança controlado
+- Facilita a Delegação de tarefas administrativas
+- Torna eficiente o gerenciamento de acesso
+- Proporciona um índice dos recursos na rede
+- Subdivisão de domínios em unidades lógicas
+- Fornece recursos de replicação de dados
+- Facilita a atribuição e manutenção de múltiplos domínios
+- Unificação do sistema de nomes baseado em DNS
+- Facilita a implementação de políticas de utilização (Políticas de Grupos)
 
 [^*]: Podemos defini-la então como uma linguagem que seja comum entre os envolvidos.
