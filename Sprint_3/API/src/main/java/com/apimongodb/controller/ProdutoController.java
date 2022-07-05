@@ -59,6 +59,8 @@ public class ProdutoController {
         this.produtoService.deletar(codigo);
     }
 
+    // Query String
+
     /*
     *
     * Cookies
