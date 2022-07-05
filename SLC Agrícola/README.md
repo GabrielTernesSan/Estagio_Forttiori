@@ -30,15 +30,18 @@ O DDD é um conjunto de princípios com foco em **domínio**, **exploração de 
 #### Bounded Contexts (Contexto delimitado)
 
 - Delimita os contextos da aplicação.
+
 - Cada contexto possui suas responsabilidades claramente definidas.
+
 - Cada contexto pode ter sua própria linguagem Ubíqua.
+
 - Utilização de histórias e levantamento do escopo do projeto com o "Domain expert" auxilia no processo de delimitação de contextos. (Exemplo de utilização do sistema, exemplo os passos para a criação de um usuário em um sistema)
 
-​	Depois que entendemos o contexto, conseguiu definir a linguagem ubíqua e tem uma visão geral do funcionamento do sistema nós partimos para a **modelagem estratégica**. Nela é onde vou definir, necessariamente, os contextos que eu vou utilizar no meu sistema, ou seja, esses são os meus **contextos delimitados**.
+  Depois que entendemos o contexto, conseguiu definir a linguagem ubíqua e tem uma visão geral do funcionamento do sistema nós partimos para a **modelagem estratégica**. Nela é onde vou definir, necessariamente, os contextos que eu vou utilizar no meu sistema, ou seja, esses são os meus **contextos delimitados**.
 
 #### Context Maps (Mapas de contexto)
 
-​	Depois de ter todos os contextos definidos nós partimos para a criação de uma mapa destes contextos. Esse mapa serve para entendermos, definitivamente, a relação entre estes contextos.
+	Depois de ter todos os contextos definidos nós partimos para a criação de uma mapa destes contextos. Esse mapa serve para entendermos, definitivamente, a relação entre estes contextos.
 
 ![Mapa de contextos](http://fullcycle.com.br/wp-content/uploads/2019/07/image-55-1024x462.png)
 
@@ -46,7 +49,7 @@ D → Downstream
 
 U → Upstream
 
-​	Quando existe um relacionamento upstream (Supplier) e downstream (Customer), significa que a equipe upstream pode ter êxito interdependente da equipe downstream. Modificações no contexto upstream impactam a downstream.
+	Quando existe um relacionamento upstream (Supplier) e downstream (Customer), significa que a equipe upstream pode ter êxito interdependente da equipe downstream. Modificações no contexto upstream impactam a downstream.
 
 ### Domain Model Patterns
 
@@ -85,13 +88,13 @@ U → Upstream
 
 ## LinQ
 
- LINQ é um acrônimo para *Language Integrated Query*, ou *Consulta Integrada à Linguagem* . Trata-se de um “framework” dentro do .NET destinado a auxiliar os desenvolvedores a escrever expressões de consulta diretamente em C# de maneira agnóstica.
+​	LINQ é um acrônimo para *Language Integrated Query*, ou *Consulta Integrada à Linguagem* . Trata-se de um “framework” dentro do .NET destinado a auxiliar os desenvolvedores a escrever expressões de consulta diretamente em C# de maneira agnóstica.
 
-O LINQ abstrai a complexidade envolvida na utilização de diferentes linguagens de consulta, como SQL, xPath e xQuery. Essa abstração é feita em cima de uma API de alto nível compatível com as linguagens integrantes do .NET Framework. Com esse Framework conseguimos consultar uma base de dados relacional, um arquivo XML uma coleção de objetos através de uma API unificada, invocada através de uma linguagem integrante do .NET Framework. Você consegue unicamente com código C# fazer consultas a conjuntos de objetos, bases de dados relacionais e arquivos XML, sendo o LINQ o encarregado de fazer a devida “tradução” para cada uma das fontes a serem consultadas.
+​	O LINQ abstrai a complexidade envolvida na utilização de diferentes linguagens de consulta, como SQL, xPath e xQuery. Essa abstração é feita em cima de uma API de alto nível compatível com as linguagens integrantes do .NET Framework. Com esse Framework conseguimos consultar uma base de dados relacional, um arquivo XML uma coleção de objetos através de uma API unificada, invocada através de uma linguagem integrante do .NET Framework. Você consegue unicamente com código C# fazer consultas a conjuntos de objetos, bases de dados relacionais e arquivos XML, sendo o LINQ o encarregado de fazer a devida “tradução” para cada uma das fontes a serem consultadas.
 
 ## Azure
 
- Azure é um serviço que permite a empresas e desenvolvedores adquirirem as capacidades de processamento e armazenamento dos datacenters da Microsoft para aplicação em seus negócios como alternativa ao modelo convencional.
+​	Azure é um serviço que permite a empresas e desenvolvedores adquirirem as capacidades de processamento e armazenamento dos datacenters da Microsoft para aplicação em seus negócios como alternativa ao modelo convencional.
 
 ### Serviços
 
@@ -111,9 +114,9 @@ O LINQ abstrai a complexidade envolvida na utilização de diferentes linguagens
 
 ## SAP
 
-O ERP tem como função principal integrar todas as áreas de uma empresa: logística, contabilidade, vendas, fiscal, contabilidade e outras. O sistema SAP é um tipo de ERP.
+​	O ERP tem como função principal integrar todas as áreas de uma empresa: logística, contabilidade, vendas, fiscal, contabilidade e outras. O sistema SAP é um tipo de ERP.
 
-Ele nada mais é que um sistema que ajuda a gerenciar os dados das empresas. Por exemplo, gerencia se a empresa tem estoque, materiais, produtos. Então, tudo que engloba os processos empresariais, o SAP auxilia a administrar.
+​	Ele nada mais é que um sistema que ajuda a gerenciar os dados das empresas. Por exemplo, gerencia se a empresa tem estoque, materiais, produtos. Então, tudo que engloba os processos empresariais, o SAP auxilia a administrar.
 
 O SAP é um sistema totalmente modular. Essa divisão permite melhor o controle dos diferentes setores da empresa.
 
@@ -124,5 +127,17 @@ O SAP é um sistema totalmente modular. Essa divisão permite melhor o controle 
 5. **PP (Production Planning and Control)** faz o planejamento e gerenciamento da produção. Funciona em conjunto com vendas, atuando junto com operações, planejamento de recursos de distribuição, planejamento de necessidades, entre outros.
 6. **QM (Quality Management)** contribui com a gestão da qualidade nos processos de uma organização. Para alcançar sua finalidade, o módulo possui integração com diversos outros processos: aquisição e vendas, produção, planejamento, inspeção, notificação, controle e outros.
 7. **PM (Manutenção)** gerencia todas as atividades de manutenção em uma organização. Na prática, corresponde às atividades-chave que incluem inspeção, notificações, manutenção corretiva e preventiva, reparos e outras medidas para manter um sistema técnico ideal.
+
+## Swagger
+
+​	Trata-se de uma aplicação *open source* que auxilia desenvolvedores nos processos de definir, criar, documentar e consumir APIs REST. Em suma, o *Swagger* visa padronizar este tipo de integração, descrevendo os recursos que uma API deve possuir, como *endpoints*, dados recebidos, dados retornados, códigos HTTP e métodos de autenticação, entre outros.
+
+​	Ele simplifica o processo de escrever APIs, especificando os padrões e fornecendo as ferramentas necessárias para escrever APIs seguras, com alto desempenho e escaláveis.
+
+Escrito em YAML ou JSON.
+
+## ElasticSearch
+
+​	O Elasticsearch é um mecanismo de busca e análise de dados distribuído, gratuito e aberto para todos os tipos de dados, incluindo textuais, numéricos, geoespaciais, estruturados e não estruturados. Conhecido por suas REST APIs simples, natureza distribuída, velocidade e escalabilidade, o Elasticsearch é o componente central do Elastic Stack, um conjunto de ferramentas gratuitas e abertas para ingestão, enriquecimento, armazenamento, análise e visualização de dados. Comumente chamado de ELK Stack (pelas iniciais de Elasticsearch, Logstash e Kibana), o Elastic Stack agora inclui uma rica coleção de agentes lightweight conhecidos como Beats para enviar dados ao Elasticsearch.
 
 [^*]: Podemos defini-la então como uma linguagem que seja comum entre os envolvidos.
